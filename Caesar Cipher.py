@@ -53,7 +53,7 @@ def start():
     elif escolha == ("desencriptar"):
         palavra = str(input("Digite a palavra para ser desencriptada: ")).lower()
         n = int(input("Digite o número shift: "))
-        decrypt(palavra,shift=5)
+        decrypt(palavra,shift=n)
 start()
 
 continuar = str()
